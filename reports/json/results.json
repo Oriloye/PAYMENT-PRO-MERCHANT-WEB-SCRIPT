@@ -1,0 +1,201 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-test;am-done",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "am done",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Open loginpage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I submit login",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4023000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-test",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Sample Test",
+    "tags": [],
+    "uri": "cypress\\e2e\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "         //When open paymentlink ",
+        "id": "payment-gateway;paymentlink",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Paymentlink",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create Qr Code",
+        "id": "payment-gateway;qr-code",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "QR Code",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create Multiple Qr Code",
+        "id": "payment-gateway;dynamic-qr-code",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Dynamic Qr Code",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create subscription",
+        "id": "payment-gateway;create-subscription",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Create Subscription",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create subscription plan",
+        "id": "payment-gateway;create-plan",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Create Plan",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create Invoicing",
+        "id": "payment-gateway;create-invoicing",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Create Invoicing",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create Reward",
+        "id": "payment-gateway;create-reward",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Create Reward",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create products",
+        "id": "payment-gateway;create-products",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Create Products",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "payment-gateway;create-tax",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Create Tax",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Open loginpage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4990000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I submit login",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Create Tax",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12734000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "        //When Create Coupon",
+        "id": "payment-gateway;create-coupon",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Create Coupon",
+        "steps": [],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "payment-gateway",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Payment Gateway",
+    "tags": [],
+    "uri": "cypress\\e2e\\paymentgateway.feature"
+  }
+]
